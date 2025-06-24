@@ -1,0 +1,28 @@
+{
+  "cpus": {
+    "Ryzen 9 9950X3D": {
+      "motherboards": ["ROG STRIX X870-A", "CROSSHAIR X870E HERO"]
+    },
+    "Intel Core Ultra 9 285K": {
+      "motherboards": ["ROG MAXIMUS Z890 EXTREME", "Z890-E GAMING"]
+    }
+  },
+  "motherboards": {
+    "ROG STRIX X870-A": {
+      "ram": ["G.Skill 6400 EXPO", "G.Skill 6000 EXPO"],
+      "psu_limit": 1000
+    },
+    "ROG MAXIMUS Z890 EXTREME": {
+      "ram": ["G.Skill 6400 XMP", "Corsair 6000 XMP"],
+      "psu_limit": 850
+    }
+  },
+  "gpus": {
+    "RTX 5090": {
+      "recommended_psu": 1000
+    },
+    "RX 9070 XT": {
+      "recommended_psu": 750
+    }
+  }
+}
